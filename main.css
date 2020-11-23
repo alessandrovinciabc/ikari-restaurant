@@ -32,7 +32,10 @@ body{
 
     font-family: 'Nanum Brush Script', cursive;
     font-size: 7rem;
+    text-shadow: black -3px 2px;
     word-break: keep-all;
+    
+    z-index: 3;
 }
 
 .decoration{
