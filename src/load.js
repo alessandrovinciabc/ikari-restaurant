@@ -11,7 +11,7 @@
     <div>Menu</div>
     <div>Contacts</div>
 </div>
-<div class="section1 section">
+<div class="section">
     <div class="side-decoration">
         🍣
     </div>
@@ -24,6 +24,8 @@
 </div>
 
 */
+
+import tabDisplay from './tabs/tabController.js';
 
 const text = {
     nameLogo: document.createTextNode('IKARI🍜'),
@@ -61,6 +63,7 @@ header.append(logo, waveBackground, headline, mainImage);
 function loadPage(domContainer){
     domContainer.append(
         header,
+        tabDisplay,
         footer
     );
 }
